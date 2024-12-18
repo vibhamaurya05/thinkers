@@ -4,16 +4,17 @@ import About from "@/components/About";
 import { CardDemo } from "@/components/CardDemo";
 import Events from "@/components/Events";
 import Product_services from "@/components/Product_services";
-
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div>
     <Hero/>
-    {/* <About/> */}
+    <About/>
     <CardDemo/>
     <Events/>
-    <Product_services/>
     <Teams/>
+    <Product_services/>
+    <Footer/>
     </div>
   );
 }
